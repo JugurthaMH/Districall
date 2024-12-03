@@ -1,0 +1,89 @@
+/* Définition des styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container pour centrer le formulaire */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Espacement entre les éléments */
+.form-container div {
+    margin-bottom: 15px;
+}
+
+/* Styles pour les labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styles pour les champs de saisie */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styles pour le bouton d'envoi */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Changement de couleur du bouton au survol */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Espacement du formulaire */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les boutons */
+input[type="submit"],
+.redirect-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Espace entre le formulaire et le bouton */
+    display: inline-block;
+    width: 100%;  /* Le bouton prendra toute la largeur disponible */
+}
+
+/* Changement de couleur du bouton au survol */
+input[type="submit"]:hover,
+.redirect-button:hover {
+    background-color: #45a049;
+}
